@@ -32,7 +32,7 @@ A simple Express.js API that demonstrates **JSON Web Token (JWT)** authenticatio
 git clone https://github.com/Abdslamekessou/node-jwt-authentication.git
 
 
-cd jwt-auth-api
+cd node-jwt-authentication
 
 ### 2. Install dependencies
 
