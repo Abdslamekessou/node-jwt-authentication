@@ -29,7 +29,8 @@ A simple Express.js API that demonstrates **JSON Web Token (JWT)** authenticatio
 ### 1. Clone the project
 
 
-git https://github.com/Abdslamekessou/node-jwt-authentication.git
+git clone https://github.com/Abdslamekessou/node-jwt-authentication.git
+
 
 cd jwt-auth-api
 
