@@ -30,6 +30,7 @@ A simple Express.js API that demonstrates **JSON Web Token (JWT)** authenticatio
 
 
 git https://github.com/Abdslamekessou/node-jwt-authentication.git
+
 cd jwt-auth-api
 
 ### 2. Install dependencies
@@ -120,6 +121,12 @@ project-root/
 
 ├── package.json
 
+
+📚 Learn More
+
+This project is part of a learning journey following John Smilga's Node.js Course On FreeCodeCamp.
+
+Feel free to fork the repo, submit issues, or contribute improvements!
 
 
 
