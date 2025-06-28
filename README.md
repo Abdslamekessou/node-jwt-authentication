@@ -41,6 +41,7 @@ npm install
 ### 3. Create .env file
 
 PORT=3000
+
 JWT_SECRET=your_jwt_secret_key
 
 ## 4. Start the server
