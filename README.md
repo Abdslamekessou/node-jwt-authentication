@@ -1,134 +1,124 @@
-# JWT Authentication API
 
-A simple Express.js API that demonstrates **JSON Web Token (JWT)** authentication, including protected routes, error handling, and middleware.
+# 🔐 JWT Authentication API
 
----
-
-## 🛠 Features
-
-- User login with mock credentials
-- Token generation using `jsonwebtoken`
-- Protected route (dashboard) with middleware
-- Custom error classes (`BadRequest`, `Unauthenticated`)
-- Environment variable support using `dotenv`
+A production-style Express.js API demonstrating **JWT (JSON Web Token)** authentication with middleware, protected routes, and centralized error handling.
 
 ---
 
-## 📦 Technologies
+## ✨ Features
 
-- Node.js
-- Express.js
-- JSON Web Token (JWT)
-- dotenv
-- http-status-codes
+- ✅ User login with JWT generation
+- ✅ Authorization via custom middleware
+- ✅ Protected `/dashboard` route
+- ✅ Custom error classes (`BadRequest`, `Unauthenticated`)
+- ✅ Secure `.env` environment setup
+
+---
+
+## 🧰 Tech Stack
+
+- **Node.js**
+- **Express.js**
+- **jsonwebtoken**
+- **dotenv**
+- **http-status-codes**
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the project
+### 1️⃣ Clone the Repository
 
-
+```bash
 git clone https://github.com/Abdslamekessou/node-jwt-authentication.git
-
-
 cd node-jwt-authentication
+```
 
-### 2. Install dependencies
+### 2️⃣ Install Dependencies
 
+```bash
 npm install
+```
 
-### 3. Create .env file
+### 3️⃣ Create `.env` File
 
+```env
 PORT=3000
-
 JWT_SECRET=your_jwt_secret_key
+```
 
-## 4. Start the server
+### 4️⃣ Start the Server
+
+```bash
 npm start
+```
 
-🧪 Test the API
+---
 
-POST /login
-Body (JSON):
+## 🧪 Test the API
+
+### 🔐 POST `/login`
+
+**Body (JSON):**
+```json
 {
   "username": "yourname",
   "password": "yourpassword"
 }
+```
 
-GET /dashboard
-Add header:
-Authorization: Bearer <token_from_login>
+### 🔒 GET `/dashboard`
 
-🧩 Project Structure
+**Header:**
+```
+Authorization: Bearer <your_token>
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
 project-root/
 │
-
 ├── controllers/
 │   └── main.js
-
 │
-
 ├── db/
 │   └── connect.js
-
 │
 ├── errors/
-
 │   ├── bad-request.js
-
 │   ├── custom-error.js
-
 │   ├── index.js
-
 │   └── unauthenticated.js
-
 │
-
 ├── middleware/
-
 │   ├── auth.js
-
 │   ├── error-handler.js
-
 │   └── not-found.js
-
 │
-
-├── node_modules/
-
-│   └── (installed packages)
-
-│
-
-├── public/
-
-│   └── (static assets if any)
-
-│
-
+├── public/             # static assets (if any)
 ├── routes/
-
 │   └── main.js
-
 │
-
 ├── .env
-
 ├── .gitignore
-
 ├── app.js
-
-├── package-lock.json
-
 ├── package.json
+└── package-lock.json
+```
 
+---
 
-📚 Learn More
+## 📘 Learn More
 
-This project is part of a learning journey following John Smilga's Node.js Course On FreeCodeCamp.
+This project is part of a learning path from **John Smilga's Node.js course** on FreeCodeCamp.
 
-Feel free to fork the repo, submit issues, or contribute improvements!
+Feel free to ⭐️ the repo, fork it, and contribute to improve it!
 
+---
+
+n
 
 
